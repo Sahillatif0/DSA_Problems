@@ -21,7 +21,7 @@ int main(){
         arr2[i] = new int[arr2C];
         cout<<"Enter arr2 row "<<i+1<<" elements: ";
         for(int j=0;j<arr2C;j++)
-            cin>>arr1[i][j];
+            cin>>arr2[i][j];
     }
     multiply mm;
     int **res = mm.mul_arr(arr1, arr2, arr1R, arr1C, arr2R, arr2C);
